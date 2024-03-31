@@ -721,7 +721,7 @@ ul.row {
   width: 100%;
 }
 
-.post-content + p {
+.post-content p:first-child {
   font-size: var(--font-size-x-large);
 }
 
