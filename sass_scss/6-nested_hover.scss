@@ -1,11 +1,9 @@
 /* My style */
 
-$red-f-clr: #ff0000;
-$lime-f-clr: #00ff00;
-
 button {
-  color: $red-f-clr;
+  color: #ff0000;
+
   &:hover {
-    color: $lime-f-clr;
+    color: #00ff00;
   }
 }
