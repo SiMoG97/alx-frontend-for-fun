@@ -1,0 +1,10 @@
+/* My style */
+
+$body-f-clr: #3d3d3d;
+$red-f-clr: #ff0000;
+body {
+  color: $body-f-clr;
+  > .red {
+    color: $red-f-clr;
+  }
+}
