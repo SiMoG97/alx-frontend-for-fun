@@ -1,0 +1,8 @@
+/* My styles */
+@import "11-photos";
+
+@each $name in $list-names {
+  .photo-julien {
+    background: image-url("photos/#{$name}.jpg") no-repeat;
+  }
+}
